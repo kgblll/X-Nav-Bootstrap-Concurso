@@ -286,6 +286,20 @@ a:focus {
 	font-size: 13px;
 }
 
+.publications-section {
+    width: 100%;
+    color: #4C0000;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.publications-section p{
+    font-size: 13px;
+}
+
 
 @media(min-width:767px) {
     .content-section {
@@ -297,6 +311,9 @@ a:focus {
     }
     
     .colaboraciones-section {
+        padding: 40px;
+    }
+    .publications-section {
         padding: 40px;
     }
 
